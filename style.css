@@ -1,0 +1,29 @@
+body {
+    background-color: #c4fff8;
+}
+
+#Show_Sketches {
+    float: right;
+}
+
+h1 {
+    color: black;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: demo;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo {
+    from {
+        box-shadow: 1px 1px 38px grey;
+    }
+    to {
+        box-shadow: 1px 1px 38px white;
+    }
+}
